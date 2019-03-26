@@ -1,0 +1,14 @@
+C:\AAA EKRONOT\Targil 4\project 10\Square\SquareGameT.xml
+SquareGame
+C:\AAA EKRONOT\Targil 4\project 10\Square\SquareT.xml
+Square
+C:\AAA EKRONOT\Targil 4\project 10\Square\MainT.xml
+Main
+C:\AAA EKRONOT\Targil 4\project 10\ExpressionlessSquare\SquareGameT.xml
+SquareGame
+C:\AAA EKRONOT\Targil 4\project 10\ExpressionlessSquare\SquareT.xml
+Square
+C:\AAA EKRONOT\Targil 4\project 10\ExpressionlessSquare\MainT.xml
+Main
+C:\AAA EKRONOT\Targil 4\project 10\ArrayTest\MainT.xml
+Main

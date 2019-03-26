@@ -1,0 +1,22 @@
+C:\AAA EKRONOT\Tagil 5\project 11\Average\MainT.xml
+Main
+C:\AAA EKRONOT\Tagil 5\project 11\ComplexArrays\MainT.xml
+Main
+C:\AAA EKRONOT\Tagil 5\project 11\ConvertToBin\MainT.xml
+Main
+C:\AAA EKRONOT\Tagil 5\project 11\Pong\PongGameT.xml
+PongGame
+C:\AAA EKRONOT\Tagil 5\project 11\Pong\BallT.xml
+Ball
+C:\AAA EKRONOT\Tagil 5\project 11\Pong\BatT.xml
+Bat
+C:\AAA EKRONOT\Tagil 5\project 11\Pong\MainT.xml
+Main
+C:\AAA EKRONOT\Tagil 5\project 11\Seven\MainT.xml
+Main
+C:\AAA EKRONOT\Tagil 5\project 11\Square\MainT.xml
+Main
+C:\AAA EKRONOT\Tagil 5\project 11\Square\SquareT.xml
+Square
+C:\AAA EKRONOT\Tagil 5\project 11\Square\SquareGameT.xml
+SquareGame

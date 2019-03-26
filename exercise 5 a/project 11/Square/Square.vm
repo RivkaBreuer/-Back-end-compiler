@@ -1,0 +1,381 @@
+// int
+function Square.new  0
+push constant  3
+call Memory.alloc 1
+pop pointer 0
+//let
+push argument 0
+pop argument 0
+//let
+push argument 0
+pop this 1
+//let
+push argument 3
+pop argument 0
+//do
+push pointer 0
+call Square.draw 1
+pop temp 0
+//return
+push pointer 0
+return
+// method
+function Square.dispose 0
+push argument 0
+pop pointer 0
+//do
+push pointer 0
+call Memory.deAlloc 1
+pop temp 0
+//return
+push constant 0
+return
+// method
+function Square.draw 0
+push argument 0
+pop pointer 0
+//do
+push constant 0
+not
+call Screen.setColor 1
+pop temp 0
+//do
+push argument 0
+push this 1
+push this 0
+push this 0
+add
+push this 1
+push this 0
+add
+call Screen.drawRectangle 4
+pop temp 0
+//return
+push constant 0
+return
+// method
+function Square.erase 0
+push argument 0
+pop pointer 0
+//do
+push constant 0
+call Screen.setColor 1
+pop temp 0
+//do
+push this 0
+push this 1
+push this 0
+push this 0
+add
+push this 1
+push this 0
+add
+call Screen.drawRectangle 4
+pop temp 0
+//return
+push constant 0
+return
+// method
+function Square.incSize 0
+push argument 0
+pop pointer 0
+//If
+push this 1
+push this 0
+add
+push constant 254
+lt
+push this 0
+push this 0
+add
+push constant 510
+lt
+and
+if-goto IF_TRUE_LABEL_ 0
+goto IF_FALSE_LABEL_ 0
+label IF_TRUE_LABEL_ 0
+//do
+push pointer 0
+push this 0
+call Square.erase 1
+pop temp 0
+//let
+push this 0
+push constant 2
+add
+pop this 0
+//do
+push pointer 0
+push this 0
+call Square.draw 1
+pop temp 0
+goto IF_END_LABEL_ 0
+label IF_FALSE_LABEL_ 0
+label IF_END_LABEL_ 0
+//return
+push constant 0
+return
+// method
+function Square.decSize 0
+push argument 0
+pop pointer 0
+//If
+push this 0
+push constant 2
+gt
+if-goto IF_TRUE_LABEL_ 0
+goto IF_FALSE_LABEL_ 0
+label IF_TRUE_LABEL_ 0
+//do
+push pointer 0
+push this 0
+call Square.erase 1
+pop temp 0
+//let
+push this 0
+push constant 2
+sub
+pop this 0
+//do
+push pointer 0
+push this 0
+call Square.draw 1
+pop temp 0
+goto IF_END_LABEL_ 0
+label IF_FALSE_LABEL_ 0
+label IF_END_LABEL_ 0
+//return
+push constant 0
+return
+// method
+function Square.moveUp 0
+push argument 0
+pop pointer 0
+//If
+push this 1
+push constant 1
+gt
+if-goto IF_TRUE_LABEL_ 0
+goto IF_FALSE_LABEL_ 0
+label IF_TRUE_LABEL_ 0
+//do
+push constant 0
+call Screen.setColor 1
+pop temp 0
+//do
+push this 0
+push this 1
+push this 0
+add
+push constant 1
+sub
+push this 0
+push this 0
+add
+push this 1
+push this 0
+add
+call Screen.drawRectangle 4
+pop temp 0
+//let
+push this 1
+push constant 2
+sub
+pop this 1
+//do
+push constant 0
+not
+call Screen.setColor 1
+pop temp 0
+//do
+push this 0
+push this 1
+push this 0
+push this 0
+add
+push this 1
+push constant 1
+add
+call Screen.drawRectangle 4
+pop temp 0
+goto IF_END_LABEL_ 0
+label IF_FALSE_LABEL_ 0
+label IF_END_LABEL_ 0
+//return
+push constant 0
+return
+// method
+function Square.moveDown 0
+push argument 0
+pop pointer 0
+//If
+push this 1
+push this 0
+add
+push constant 254
+lt
+if-goto IF_TRUE_LABEL_ 0
+goto IF_FALSE_LABEL_ 0
+label IF_TRUE_LABEL_ 0
+//do
+push constant 0
+call Screen.setColor 1
+pop temp 0
+//do
+push this 0
+push this 1
+push this 0
+push this 0
+add
+push this 1
+push constant 1
+add
+call Screen.drawRectangle 4
+pop temp 0
+//let
+push this 1
+push constant 2
+add
+pop this 1
+//do
+push constant 0
+not
+call Screen.setColor 1
+pop temp 0
+//do
+push this 0
+push this 1
+push this 0
+add
+push constant 1
+sub
+push this 0
+push this 0
+add
+push this 1
+push this 0
+add
+call Screen.drawRectangle 4
+pop temp 0
+goto IF_END_LABEL_ 0
+label IF_FALSE_LABEL_ 0
+label IF_END_LABEL_ 0
+//return
+push constant 0
+return
+// method
+function Square.moveLeft 0
+push argument 0
+pop pointer 0
+//If
+push this 0
+push constant 1
+gt
+if-goto IF_TRUE_LABEL_ 0
+goto IF_FALSE_LABEL_ 0
+label IF_TRUE_LABEL_ 0
+//do
+push constant 0
+call Screen.setColor 1
+pop temp 0
+//do
+push this 0
+push this 0
+add
+push constant 1
+sub
+push this 1
+push this 0
+push this 0
+add
+push this 1
+push this 0
+add
+call Screen.drawRectangle 4
+pop temp 0
+//let
+push this 0
+push constant 2
+sub
+pop this 0
+//do
+push constant 0
+not
+call Screen.setColor 1
+pop temp 0
+//do
+push this 0
+push this 1
+push this 0
+push constant 1
+add
+push this 1
+push this 0
+add
+call Screen.drawRectangle 4
+pop temp 0
+goto IF_END_LABEL_ 0
+label IF_FALSE_LABEL_ 0
+label IF_END_LABEL_ 0
+//return
+push constant 0
+return
+// method
+function Square.moveRight 0
+push argument 0
+pop pointer 0
+//If
+push this 0
+push this 0
+add
+push constant 510
+lt
+if-goto IF_TRUE_LABEL_ 0
+goto IF_FALSE_LABEL_ 0
+label IF_TRUE_LABEL_ 0
+//do
+push constant 0
+call Screen.setColor 1
+pop temp 0
+//do
+push this 0
+push this 1
+push this 0
+push constant 1
+add
+push this 1
+push this 0
+add
+call Screen.drawRectangle 4
+pop temp 0
+//let
+push this 0
+push constant 2
+add
+pop this 0
+//do
+push constant 0
+not
+call Screen.setColor 1
+pop temp 0
+//do
+push this 0
+push this 0
+add
+push constant 1
+sub
+push this 1
+push this 0
+push this 0
+add
+push this 1
+push this 0
+add
+call Screen.drawRectangle 4
+pop temp 0
+goto IF_END_LABEL_ 0
+label IF_FALSE_LABEL_ 0
+label IF_END_LABEL_ 0
+//return
+push constant 0
+return

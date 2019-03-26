@@ -1,0 +1,112 @@
+// constructor
+function PongGame.new  0
+push constant  7
+call Memory.alloc 1
+pop pointer 0
+//do
+call Screen.clearScreen 0
+pop temp 0
+//let
+push constant 50
+pop local 0
+//let
+push constant 230
+push constant 229
+push this 0
+push constant 7
+call Bat.new 5
+pop this 0
+//let
+push constant 253
+push constant 222
+push constant 0
+push constant 511
+push constant 0
+push constant 229
+call Ball.new 7
+pop this 0
+//do
+push constant 400
+push constant 0
+call ball.setDestination 2
+pop temp 0
+//do
+push constant 0
+push constant 238
+push constant 511
+push constant 240
+call Screen.drawRectangle 4
+pop temp 0
+//do
+push constant 22
+push constant 0
+call Output.moveCursor 2
+pop temp 0
+//do
+push constant  8
+call String.new 1
+push constant  83
+call String.appendChar 2
+push constant  99
+call String.appendChar 2
+push constant  111
+call String.appendChar 2
+push constant  114
+call String.appendChar 2
+push constant  101
+call String.appendChar 2
+push constant  58
+call String.appendChar 2
+push constant  32
+call String.appendChar 2
+push constant  48
+call String.appendChar 2
+call Output.printString 1
+pop temp 0
+//let
+push constant 0
+pop this 0
+//let
+push constant 0
+pop this 0
+//let
+push constant 0
+pop this 0
+//let
+push constant 0
+pop this 0
+//return
+push pointer 0
+return
+// method
+function PongGame.dispose 0
+push argument 0
+pop pointer 0
+//do
+push this 0
+call bat.dispose 0
+pop temp 0
+//do
+push this 0
+call ball.dispose 0
+pop temp 0
+//do
+push pointer 0
+call Memory.deAlloc 1
+pop temp 0
+//return
+push constant 0
+return
+// function
+function PongGame.newInstance 0
+//let
+call PongGame.new 1
+pop static 0
+//return
+push constant 0
+return
+// function
+function PongGame.getInstance 0
+//return
+push static 0
+return

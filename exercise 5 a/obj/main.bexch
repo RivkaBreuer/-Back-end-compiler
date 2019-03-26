@@ -1,0 +1,19 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+C:\AAA EKRONOT\Tagil 5\t5.gpr
+20190107083042
+[BOUND OBJECT FILES]
+C:\AAA EKRONOT\Tagil 5\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LC:\AAA EKRONOT\Tagil 5\obj\
+-LC:\AAA EKRONOT\Tagil 5\obj\
+-LC:/gnat/2018/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2018/lib/gcc/x86_64-pc-mingw32/7.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

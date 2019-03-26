@@ -1,0 +1,57 @@
+// int
+function Ball.new  0
+push constant  15
+call Memory.alloc 1
+pop pointer 0
+//do
+push constant 0
+not
+call Screen.setColor 1
+pop temp 0
+//do
+push pointer 0
+call Ball.draw 1
+pop temp 0
+//return
+push constant 0
+return
+// method
+function Ball.hide 0
+push argument 0
+pop pointer 0
+//do
+push constant 0
+call Screen.setColor 1
+pop temp 0
+//do
+push pointer 0
+call Ball.draw 1
+pop temp 0
+//return
+push constant 0
+return
+// method
+function Ball.draw 0
+push argument 0
+pop pointer 0
+//do
+push argument 0
+push this 1
+push this 0
+push constant 5
+add
+push this 1
+push constant 5
+add
+call Screen.drawRectangle 4
+pop temp 0
+//return
+push constant 0
+return
+// method
+function Ball.getLeft 0
+push argument 0
+pop pointer 0
+//return
+push this 0
+return

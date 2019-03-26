@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project >
+    <file_marker column=" 1" line=" 24" >
+      <vfs_project>C:\AAA EKRONOT\Targil 5 b\tt5.gpr</vfs_project>
+      <vfs_file>C:\AAA EKRONOT\Targil 5 b\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 259" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\2018\lib\gcc\x86_64-pc-mingw32\7.3.1\adainclude\a-textio.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 28" line=" 37" >
+      <vfs_project>C:\AAA EKRONOT\Targil 5 b\tt5.gpr</vfs_project>
+      <vfs_file>C:\AAA EKRONOT\Targil 5 b\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 28" line=" 223" >
+      <vfs_project>C:\AAA EKRONOT\Targil 5 b\tt5.gpr</vfs_project>
+      <vfs_file>C:\AAA EKRONOT\Targil 5 b\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 20" line=" 237" >
+      <vfs_project>C:\AAA EKRONOT\Targil 5 b\tt5.gpr</vfs_project>
+      <vfs_file>C:\AAA EKRONOT\Targil 5 b\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 37" >
+      <vfs_project>C:\AAA EKRONOT\Targil 5 b\tt5.gpr</vfs_project>
+      <vfs_file>C:\AAA EKRONOT\Targil 5 b\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 12" line=" 105" >
+      <vfs_project>C:\AAA EKRONOT\Targil 5 b\tt5.gpr</vfs_project>
+      <vfs_file>C:\AAA EKRONOT\Targil 5 b\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 19" line=" 143" >
+      <vfs_project>C:\AAA EKRONOT\Targil 5 b\tt5.gpr</vfs_project>
+      <vfs_file>C:\AAA EKRONOT\Targil 5 b\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 16" line=" 212" >
+      <vfs_project>C:\AAA EKRONOT\Targil 5 b\tt5.gpr</vfs_project>
+      <vfs_file>C:\AAA EKRONOT\Targil 5 b\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 19" line=" 573" >
+      <vfs_project>C:\AAA EKRONOT\Targil 5 b\tt5.gpr</vfs_project>
+      <vfs_file>C:\AAA EKRONOT\Targil 5 b\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 19" line=" 593" >
+      <vfs_project>C:\AAA EKRONOT\Targil 5 b\tt5.gpr</vfs_project>
+      <vfs_file>C:\AAA EKRONOT\Targil 5 b\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 40" line=" 822" >
+      <vfs_project>C:\AAA EKRONOT\Targil 5 b\tt5.gpr</vfs_project>
+      <vfs_file>C:\AAA EKRONOT\Targil 5 b\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 40" line=" 839" >
+      <vfs_project>C:\AAA EKRONOT\Targil 5 b\tt5.gpr</vfs_project>
+      <vfs_file>C:\AAA EKRONOT\Targil 5 b\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 43" line=" 853" >
+      <vfs_project>C:\AAA EKRONOT\Targil 5 b\tt5.gpr</vfs_project>
+      <vfs_file>C:\AAA EKRONOT\Targil 5 b\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 11" line=" 222" >
+      <vfs_project>C:\AAA EKRONOT\Targil 5 b\tt5.gpr</vfs_project>
+      <vfs_file>C:\AAA EKRONOT\Targil 5 b\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 30" line=" 238" >
+      <vfs_project>C:\AAA EKRONOT\Targil 5 b\tt5.gpr</vfs_project>
+      <vfs_file>C:\AAA EKRONOT\Targil 5 b\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 30" line=" 250" >
+      <vfs_project>C:\AAA EKRONOT\Targil 5 b\tt5.gpr</vfs_project>
+      <vfs_file>C:\AAA EKRONOT\Targil 5 b\src\main.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>
